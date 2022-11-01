@@ -1,5 +1,5 @@
 {
-  "name": "next13",
+  "name": "next-trpc-prisma",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,9 +9,19 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@auth0/nextjs-auth0": "^1.9.2",
+    "@prisma/client": "^4.5.0",
+    "@tanstack/react-query": "^4.13.0",
+    "@trpc/client": "^10.0.0-proxy-beta.26",
+    "@trpc/next": "^10.0.0-proxy-beta.26",
+    "@trpc/react-query": "^10.0.0-proxy-beta.26",
+    "@trpc/server": "^10.0.0-proxy-beta.26",
+    "dotenv": "^16.0.3",
     "next": "13.0.0",
+    "prisma": "^4.5.0",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "zod": "^3.19.1"
   },
   "devDependencies": {
     "@types/node": "18.11.7",
