@@ -3,6 +3,7 @@ This is a [Next.js](https://nextjs.org/) app using:
 - [Auth0](https://auth0.com/) for authentication
 - [Prisma](https://prisma.io) as an ORM
 - [tRPC](https://trpc.io/) for a typesafe API and querying
+- [zod](https://github.com/colinhacks/zod) for query schema validation
 
 ## Create .env
 
